@@ -33,7 +33,7 @@ export default function Home() {
               <input 
               type="email" 
               name='email' 
-              placeholder='Enter your email' className='border-2 border-black rounded-md m-1 p-1 w-1/2' />
+              placeholder='Enter your email' className='border-2 border-black rounded-md m-1 px-1 py-px w-1/2' />
             </div>
 
             {/* Country input field */}
@@ -41,7 +41,7 @@ export default function Home() {
               <label htmlFor='country' className='px-1'>Country</label>
               <CountrySelect onCountryChange={onCountryChange} />
             </div>
-            
+
           </div>
         </div>
       </form>
